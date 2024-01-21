@@ -9,7 +9,7 @@ fn tip_percentage(names: Vec<String>) -> i8 {
     };
 }
 
-fn addPerson(names: Vec<String>, new_name: String) -> Vec<String> {
+fn add_person(names: Vec<String>, new_name: String) -> Vec<String> {
     let mut added = names.clone();
     added.push(new_name);
     return added;
